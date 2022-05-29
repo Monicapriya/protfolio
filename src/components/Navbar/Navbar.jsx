@@ -34,10 +34,11 @@ function Navbar() {
     const useStyles = makeStyles((t) => ({
         navMenu : {
             fontSize: '2.5rem',
-            color: theme.tertiary,
+            color: "#cff2fc",
             cursor: 'pointer',
             transform: 'translateY(-10px)',
             transition: 'color 0.3s',
+           
             "&:hover": {
                 color: theme.primary,
             },
@@ -58,6 +59,7 @@ function Navbar() {
             background: theme.secondary,
             overflow: 'hidden',
             borderTopRightRadius: '40px',
+           
             borderBottomRightRadius: '40px',
             [t.breakpoints.down('sm')]: {
                 width:'12em',
@@ -66,6 +68,8 @@ function Navbar() {
         closebtnIcon: {
             fontSize: '2rem',
             fontWeight: 'bold',
+
+           
             cursor: 'pointer',
             color: theme.primary,
             position: 'absolute',

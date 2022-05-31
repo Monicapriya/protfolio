@@ -18,7 +18,7 @@ export const projectsData = [
         tags: ["Html", "css", "javascript"],
         logos: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
         code: 'https://github.com/Monica1310/eBay',
-        demo: 'https://lighthearted-boba-40e862.netlify.app/',
+        demo: 'https://comfy-hamster-f88545.netlify.app',
         image: "https://user-images.githubusercontent.com/100186167/163885742-2dd124c2-3495-4125-add3-c848cf36c47b.png"
     },
         {

@@ -13,8 +13,7 @@ var trig = 5;
 
 
 export const themeData = {
-    theme: arr[trig] 
+    theme: bwThemeDark
 }
-
 
 // Choose theme from above

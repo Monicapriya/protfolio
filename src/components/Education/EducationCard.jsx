@@ -14,9 +14,9 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
 
     const useStyles = makeStyles((t) => ({
         educationCard : {
-            backgroundColor:"#9fc5c8",
+            backgroundColor:theme.primary30,
             "&:hover": {
-                backgroundColor:"#cff2fc",
+                backgroundColor:theme.primary50,
             },
         },
     }));
@@ -26,13 +26,13 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
     return (
         <Fade bottom>
             <div key={id} className={`education-card ${classes.educationCard}`} >
-                <div className="educard-img" style={{backgroundColor: "black"}}>
-                    <img src={theme.type === 'light' ? eduImgBlack : eduImgWhite} alt="" />
+                <div className="educard-img" style={{backgroundColor: theme.primary}}>
+                    <img src={theme.type === 'dark' ? eduImgBlack : eduImgWhite} alt="" />
                 </div>
                 <div className="education-details">
-                    <h6 style={{color: "black"}}>{startYear}-{endYear}</h6>
-                    <h4 style={{color: "black"}}>{course}</h4>
-                    <h5 style={{color: "black"}}>{institution}</h5>
+                    <h6 style={{color: theme.primary}}>{startYear}-{endYear}</h6>
+                    <h4 style={{color: theme.tertiary}}>{course}</h4>
+                    <h5 style={{color: theme.tertiary80}}>{institution}</h5>
                 </div>
             </div>
         </Fade>        

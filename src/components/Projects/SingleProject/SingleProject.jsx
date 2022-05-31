@@ -18,7 +18,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme,logos })
             height: 40,
             borderRadius: 50,
             border: `2px solid ${theme.tertiary}`,
-            color: theme.tertiary,
+            color: theme.secondary,
             transition: 'all 0.2s',
             "&:hover": {
                 backgroundColor: theme.secondary,
@@ -43,9 +43,9 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme,logos })
         <Fade bottom>
             <div key={id} className="singleProject" style={{backgroundColor: theme.primary400}}>
                 <div className="projectContent">
-                    <h2 style={{color: theme.tertiary}}>{name}</h2>
+                    <h2 style={{color: theme.secondary}}>{name}</h2>
                     <img src={image ? image : placeholder} alt={name} />
-                     <p className="project--desc" style={{background: theme.secondary, color: "white"}}>
+                     <p className="project--desc" style={{background: theme.secondary, color: theme.tertiary}}>
                     {desc}
                     </p>
                     <div className="project--lang" style={{marginBottom: "0",paddingBottom:"0", alignItems: 'center',display:"flex",flexFlow:"column",background: theme.secondary, color: theme.tertiary80 }}>
@@ -69,10 +69,10 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme,logos })
                 </div>
                     <div className="project--showcaseBtn">
                         <a href={demo} target="_blank" rel="noreferrer" className={classes.iconBtn}>
-                            <FaPlay style={{color:"black"}} className={classes.icon}/>
+                            <FaPlay className={classes.icon}/>
                         </a>
                         <a href={code} target="_blank" rel="noreferrer" className={classes.iconBtn}>
-                            <FaCode style={{color:"black"}} className={classes.icon}/>
+                            <FaCode className={classes.icon}/>
                         </a>
                     </div>
                 </div>

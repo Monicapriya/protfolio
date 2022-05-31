@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { 
     blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy, 
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl, yellowThemeboy,
@@ -97,7 +96,7 @@ export const bwThemeDark = {
 export const blueThemeLight = {
     type: 'light',
     primary: '#545fc4',
-    primary400: '#9fc5c8',
+    primary400: '#6e76c7',
     primary600: '#3644c9',
     primary80: '#545fc4cc',
     primary50: '#545fc480',
@@ -117,8 +116,8 @@ export const blueThemeLight = {
 }
 export const blueThemeDark = {
     type: 'dark',
-    primary: '#9fc5c8',
-    primary400: '#9fc5c8',
+    primary: '#545fc4',
+    primary400: '#6e76c7',
     primary600: '#3644c9',
     primary80: '#545fc4cc',
     primary50: '#545fc480',
@@ -126,7 +125,7 @@ export const blueThemeDark = {
     secondary: '#212121',
     secondary70: '#212121b3',
     secondary50: '#21212180',
-    tertiary: '#black',
+    tertiary: '#eaeaea',
     tertiary80: '#eaeaeacc',
     tertiary70: '#eaeaeab3',
     tertiary50: '#eaeaea80',
@@ -352,4 +351,3 @@ export const yellowThemeDark = {
     expimg: expYellow,
     contactsimg: contactsYellow
 }
-

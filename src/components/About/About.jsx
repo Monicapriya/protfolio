@@ -21,12 +21,12 @@ function About() {
                     <h2 style={{color: theme.primary}}>ABOUT ME</h2>
                     <p style={{color:theme.tertiary80,textAlign: "justify"}}>{aboutData.description1}<br/><br/>{aboutData.description2}</p>
                 </div>
-                {/* <div className="about-img">
+                <div className="about-img">
                     <img 
-                        src={theme.aboutimg1}  
+                        src={ theme.aboutimg2}  
                         alt="" 
                     />
-                </div> */}
+                </div>
             </div>
         </div>
 

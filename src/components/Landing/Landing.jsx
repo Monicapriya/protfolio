@@ -91,8 +91,8 @@ function Landing() {
                     <div className="lcr--content" style={{color: theme.tertiary}}>
                         {/* <h6 style={{textAlign:"center",marginTop:"20%",color:"transparent"}} >{headerData.title}</h6> */}
                         <div className="col-12" style={{textAlign:"center",marginTop:"20%"}}>  <img src="https://raw.githubusercontent.com/tal-zvon/tal-zvon/main/assets/Hand_Wave.gif" width="20%"  alt="" />  </div>
-                        <h1 className="aimee" style={{ textAlign: "center",fontSize:"33px",color:"#9fc5c8" }}>Monica Priya R</h1>
-                        <div style={{ textAlign: "center",color:"#9fc5c8" }}>
+                        <h1 className="aimee" style={{ textAlign: "center",fontSize:"30px" }}>Monica Priya R | Portfolio</h1>
+                        <div style={{ textAlign: "center"}}>
                             <h3 >I am a
                             <Typewriter
                             options={{

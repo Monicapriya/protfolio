@@ -1,10 +1,11 @@
 .contacts {
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     position: relative;
+    /* border: 1px solid blue; */
 }
 
 
@@ -25,6 +26,7 @@
     width: 80%;
     height: 100%;
     margin-top: 2rem;
+    /* border: 1px solid red; */
 }
 
 .contacts--container > h1 {
@@ -35,7 +37,7 @@
 }
 
 .contacts-body {
-    /* display: flex; */
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;

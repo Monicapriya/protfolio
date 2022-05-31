@@ -34,7 +34,7 @@ function Navbar() {
     const useStyles = makeStyles((t) => ({
         navMenu : {
             fontSize: '2.5rem',
-            color: "#cff2fc",
+            color: theme.tertiary,
             cursor: 'pointer',
             transform: 'translateY(-10px)',
             transition: 'color 0.3s',
@@ -188,14 +188,14 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink to="/#services" smooth={true} spy="true" duration={2000}>
                                 <div className={classes.drawerItem}>
                                     <BsFillGearFill className={classes.drawerIcon}/>
                                     <span className={classes.drawerLinks}>Hobbies</span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink to="/#projects" smooth={true} spy="true" duration={2000}>

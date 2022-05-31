@@ -98,6 +98,8 @@ function Landing() {
                             options={{
                                 strings: [
                                 "Full Stack Developer",
+                                "MERN Stack Developer",
+                                "Civil Engineer"
                                 ],
                                 autoStart: true,
                                 loop: true,
@@ -114,7 +116,7 @@ function Landing() {
                         <div style={{position:"relative",margin:"10% auto",width:"70%",marginBottom:"10%"}} className="lcr-buttonContainer">
                             <div style={{marginBottom:"30px"}}>
                                 {headerData.resumePdf && (
-                                <a href="https://docs.google.com/document/d/1OT1jzajJLGvCZh-NiftIHpvpDXzztBNy/edit?usp=sharing&ouid=116794924349541451169&rtpof=true&sd=true">
+                                <a href="https://drive.google.com/file/d/1htLFs5fX1ke7XIbZLCA-4frXMx1hRAAJ/view?usp=sharing">
                                    
                                     <Button className={classes.resumeBtn}>Download CV</Button>
                                     

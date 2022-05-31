@@ -28,7 +28,7 @@ export const projectsData = [
         tags: ["Html", "css", "javascript"],
          logos: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
         code: 'https://github.com/Monica1310/Sephora-website-clone',
-        // demo: 'https://rahul3105.github.io/Onn_bikes_clone/',
+        demo: 'https://sephora-website-clone.vercel.app/',
         image: "https://user-images.githubusercontent.com/100186167/168543447-278886e3-eb60-4a80-a872-642625c92bb0.png"
     }
     // {

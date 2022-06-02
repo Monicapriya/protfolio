@@ -7,7 +7,7 @@ export const projectsData = [
         projectDesc: 'Nordstrom-rack is a of e-commerce website Nordstrom-rack, an online shopping website with different category of Womens, Mens and Kids products.',
         tags: ["React", "Bootstrap","material.ui"],
         logos: ["fab fa-react","fab fa-bootstrap","fab fa-js"],
-        code: 'https://github.com/Monica1310/Nordstrom-rack/blob/main/README.old.md',
+        code: 'https://github.com/Monica1310/Nordstrom-rack',
         demo: 'https://precious-lokum-c13ef5.netlify.app/',
         image: "https://user-images.githubusercontent.com/100186167/168384003-beb91a7f-211e-410d-86b2-0e5ba0b081e6.png"
     },

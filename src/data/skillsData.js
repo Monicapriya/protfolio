@@ -4,6 +4,7 @@
     'CSS',
      'React',
      "Bootstrap",
-     "typescript"
+     "typescript",
+     "Mongodb",
 ]
 

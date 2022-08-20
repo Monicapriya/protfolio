@@ -55,7 +55,7 @@ function Projects() {
         }
     }
     const handleNext= () => {
-        if (next !== 3)                                        // if you want to increase size increse this number.
+        if (next !== 4)                                        // if you want to increase size increse this number.
         {
             setNext(next+1)
         }
@@ -81,7 +81,7 @@ function Projects() {
                                 </svg> }
                             
                             </button>
-                            {projectsData.slice(0+next, 3+next).map(project => (
+                            {projectsData.slice(0+next, 4+next).map(project => (
                                 <SingleProject
                                     theme={theme}
                                     key={project.id}

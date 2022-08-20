@@ -1,10 +1,9 @@
 
 export const projectsData = [
-
     {
         id: 1,
         projectName: 'Nordstrom-rack',
-        projectDesc: 'Nordstrom-rack is a of e-commerce website Nordstrom-rack, an online shopping website with different category of Womens, Mens and Kids products.',
+        projectDesc: 'Nordstrom-rack is a of e-commerce website an online shopping website with different category of Womens, Mens and Kids products.',
         tags: ["React", "Bootstrap","material.ui"],
         logos: ["fab fa-react","fab fa-bootstrap","fab fa-js"],
         code: 'https://github.com/Monica1310/Nordstrom-rack',
@@ -13,16 +12,37 @@ export const projectsData = [
     },
     {
         id: 2,
+        projectName: 'Streamline',
+        projectDesc: 'A chat application for streamline communication at work, where user can create a group/team and add members to the group, have conversation/interaction with the team, and simultaneously assign task for perticular individual in the team.',
+        tags: ["React","MongoDb","Socket.io"],
+        logos: ["fab fa-react","fas fa-database",""],
+        code: 'https://github.com/Monica1310/Streamline',
+        demo: 'https://streamline-eight.vercel.app/chat',
+        image: "https://user-images.githubusercontent.com/100186167/185742151-025d91c2-7377-4fac-9bf4-b92d430c6cfd.png"
+    },
+
+    {
+        id: 3,
+        projectName: 'PharmEasy',
+        projectDesc: 'PharmEasy is as an e-commerce platform, offering pharmaceutical and healthcare products, where individuals can purchase healthcare-related equipment including medicines.',
+        tags: ["React", "Node.js","MongoDb"],
+        logos: ["fab fa-react","fab fa-node","fas fa-database"],
+        code: 'https://github.com/Monica1310/vogue-pocket-8479',
+        demo: 'https://pharmeasylion.vercel.app/',
+        image: "https://user-images.githubusercontent.com/100186167/168384003-beb91a7f-211e-410d-86b2-0e5ba0b081e6.png"
+    },
+    {
+        id: 4,
         projectName: 'eBay',
         projectDesc: 'eBay is a popular e-commerce website, an online auction and shopping website, eBay provides virtual marketplaces for selling goods, and to buy products provided with online payment services.',
         tags: ["Html", "css", "javascript"],
         logos: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
-        code: 'https://github.com/Monica1310/eBay',
+        code: 'https://github.com/Monica1310/Ebay-Website-Clone',
         demo: 'https://comfy-hamster-f88545.netlify.app',
         image: "https://user-images.githubusercontent.com/100186167/163885742-2dd124c2-3495-4125-add3-c848cf36c47b.png"
     },
         {
-        id: 3,
+        id: 5,
         projectName: 'Sephora',
         projectDesc: 'Sephora is a e-commerce cosmetic website, where user can buy products provided with online payment services.',
         tags: ["Html", "css", "javascript"],
@@ -30,6 +50,17 @@ export const projectsData = [
         code: 'https://github.com/Monica1310/Sephora-website-clone',
         demo: 'https://sephora-website-clone.vercel.app/',
         image: "https://user-images.githubusercontent.com/100186167/168543447-278886e3-eb60-4a80-a872-642625c92bb0.png"
+    },
+   
+    {
+        id: 6,
+        projectName: 'Weather-App',
+        projectDesc: 'This is a Weather-App, shows the weather report of a city by its name',
+        tags: ["Html", "css", "javascript"],
+         logos: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
+        code: 'https://github.com/Monica1310/Weather-App',
+        demo: 'https://splendorous-tanuki-608435.netlify.app/',
+        image: "https://user-images.githubusercontent.com/100186167/185697661-120bcf46-7af6-4777-ac31-b25c28229cb9.png"
     }
     // {
     //     id: 4,

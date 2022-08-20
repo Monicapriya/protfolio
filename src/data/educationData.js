@@ -16,7 +16,7 @@ export const educationData = [
     {
         id: 3,
         institution: 'Nisarga Independent PU College, Kollegal',
-        course: `Higher Secondary Education`,
+        course: `Senior Secondary Education`,
         startYear: '2013',
         endYear: '2015'
     },

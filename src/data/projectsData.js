@@ -14,8 +14,8 @@ export const projectsData = [
         id: 2,
         projectName: 'Streamline',
         projectDesc: 'A chat application for streamline communication at work, where user can create a group/team and add members to the group, have conversation/interaction with the team, and simultaneously assign task for perticular individual in the team.',
-        tags: ["React","MongoDb","Socket.io"],
-        logos: ["fab fa-react","fas fa-database",""],
+        tags: ["React","MongoDb","Node.js"],
+        logos: ["fab fa-react","fas fa-database","fab fa-node"],
         code: 'https://github.com/Monica1310/Streamline',
         demo: 'https://streamline-eight.vercel.app/chat',
         image: "https://user-images.githubusercontent.com/100186167/185742151-025d91c2-7377-4fac-9bf4-b92d430c6cfd.png"

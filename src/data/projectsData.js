@@ -31,18 +31,18 @@ export const projectsData = [
         demo: 'https://pharmeasylion.vercel.app/',
         image: "https://user-images.githubusercontent.com/100186167/168384003-beb91a7f-211e-410d-86b2-0e5ba0b081e6.png"
     },
-    {
-        id: 4,
-        projectName: 'eBay',
-        projectDesc: 'eBay is a popular e-commerce website, an online auction and shopping website, eBay provides virtual marketplaces for selling goods, and to buy products provided with online payment services.',
-        tags: ["Html", "css", "javascript"],
-        logos: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
-        code: 'https://github.com/Monica1310/Ebay-Website-Clone',
-        demo: 'https://comfy-hamster-f88545.netlify.app',
-        image: "https://user-images.githubusercontent.com/100186167/163885742-2dd124c2-3495-4125-add3-c848cf36c47b.png"
-    },
+    // {
+    //     id: 4,
+    //     projectName: 'eBay',
+    //     projectDesc: 'eBay is a popular e-commerce website, an online auction and shopping website, eBay provides virtual marketplaces for selling goods, and to buy products provided with online payment services.',
+    //     tags: ["Html", "css", "javascript"],
+    //     logos: ["fab fa-html5", "fab fa-css3", "fab fa-js"],
+    //     code: 'https://github.com/Monica1310/Ebay-Website-Clone',
+    //     demo: 'https://comfy-hamster-f88545.netlify.app',
+    //     image: "https://user-images.githubusercontent.com/100186167/163885742-2dd124c2-3495-4125-add3-c848cf36c47b.png"
+    // },
         {
-        id: 5,
+        id: 4,
         projectName: 'Sephora',
         projectDesc: 'Sephora is a e-commerce cosmetic website, where user can buy products provided with online payment services.',
         tags: ["Html", "css", "javascript"],
@@ -53,7 +53,7 @@ export const projectsData = [
     },
    
     {
-        id: 6,
+        id: 5,
         projectName: 'Weather-App',
         projectDesc: 'This is a Weather-App, shows the weather report of a city by its name',
         tags: ["Html", "css", "javascript"],

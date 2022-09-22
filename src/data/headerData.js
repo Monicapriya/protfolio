@@ -3,6 +3,6 @@ import resume from '../assets/pdf/resume.pdf'
 export const headerData = {
     name: 'R Monica Priya',
     title: "Hello! I'am",
-    image: 'https://media-exp2.licdn.com/dms/image/C4D03AQGQs1USPeiGVQ/profile-displayphoto-shrink_800_800/0/1655492717745?e=1661990400&v=beta&t=KvhPehugb0cuEor1Pygam3FZZYE4gx76sEH7p-Qtaxk',
+    image: 'https://avatars.githubusercontent.com/u/100186167?s=400&u=53f7908669b364afa8b2e0e9593053b2cb1084e1&v=4',
     resumePdf: resume
 }

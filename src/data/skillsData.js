@@ -4,7 +4,9 @@
     'CSS',
      'React',
      "Bootstrap",
+     "materialui",
      "typescript",
      "Mongodb",
+     "nodejs",
 ]
 
